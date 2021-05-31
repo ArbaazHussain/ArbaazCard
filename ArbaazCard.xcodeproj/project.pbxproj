@@ -13,6 +13,8 @@
 		18EC7B062630302400621F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC7B052630302400621F01 /* Assets.xcassets */; };
 		18EC7B092630302400621F01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC7B082630302400621F01 /* Preview Assets.xcassets */; };
 		18EC7B0C2630302400621F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC7B0A2630302400621F01 /* LaunchScreen.storyboard */; };
+		18EC7B162630349200621F01 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18EC7B152630349200621F01 /* Pacifico-Regular.ttf */; };
+		18EC7B1926309A2100621F01 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC7B1826309A2100621F01 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		18EC7B082630302400621F01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18EC7B0B2630302400621F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18EC7B0D2630302400621F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EC7B152630349200621F01 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		18EC7B1826309A2100621F01 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		18EC7AFE2630302300621F01 /* ArbaazCard */ = {
 			isa = PBXGroup;
 			children = (
+				18EC7B142630347F00621F01 /* fonts */,
 				18EC7AFF2630302300621F01 /* AppDelegate.swift */,
 				18EC7B012630302300621F01 /* SceneDelegate.swift */,
 				18EC7B032630302300621F01 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				18EC7B0A2630302400621F01 /* LaunchScreen.storyboard */,
 				18EC7B0D2630302400621F01 /* Info.plist */,
 				18EC7B072630302400621F01 /* Preview Content */,
+				18EC7B1826309A2100621F01 /* InfoView.swift */,
 			);
 			path = ArbaazCard;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				18EC7B082630302400621F01 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18EC7B142630347F00621F01 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18EC7B152630349200621F01 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18EC7B0C2630302400621F01 /* LaunchScreen.storyboard in Resources */,
+				18EC7B162630349200621F01 /* Pacifico-Regular.ttf in Resources */,
 				18EC7B092630302400621F01 /* Preview Assets.xcassets in Resources */,
 				18EC7B062630302400621F01 /* Assets.xcassets in Resources */,
 			);
@@ -145,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EC7B1926309A2100621F01 /* InfoView.swift in Sources */,
 				18EC7B002630302300621F01 /* AppDelegate.swift in Sources */,
 				18EC7B022630302300621F01 /* SceneDelegate.swift in Sources */,
 				18EC7B042630302300621F01 /* ContentView.swift in Sources */,
