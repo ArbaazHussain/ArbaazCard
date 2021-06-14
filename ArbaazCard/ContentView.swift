@@ -17,7 +17,7 @@ struct ContentView: View {
     var body: some View {
         
         
-        
+    
         
         
         ZStack {
@@ -27,7 +27,7 @@ struct ContentView: View {
             
             
             VStack {
-                    Image("a")
+                    Image("photo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 220.0, height: 220.0)
@@ -50,6 +50,15 @@ struct ContentView: View {
                 
                 InfoView(text: "7631185390", imageName: "phone.fill")
                 InfoView(text: "akarbaaz452@gmail.com", imageName: "envelope.fill")
+                
+                
+                Divider()
+                
+                Text("An iOS Engineer by Profession, an Apple fanboy by ❤️")
+                    .foregroundColor(.white)
+                    .font(.system(size: 15))
+                
+                
                 
                 }
             
