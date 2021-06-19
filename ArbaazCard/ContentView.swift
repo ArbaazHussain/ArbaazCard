@@ -49,7 +49,7 @@ struct ContentView: View {
                 Divider()
                 
                 InfoView(text: "7631185390", imageName: "phone.fill")
-                InfoView(text: "akarbaaz452@gmail.com", imageName: "envelope.fill")
+                InfoView(text: "arbaazkhan01@icloud.com", imageName: "envelope.fill")
                 
                 
                 Divider()
